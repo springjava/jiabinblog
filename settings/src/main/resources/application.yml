@@ -1,0 +1,13 @@
+spring:
+  profiles: prod
+veryjava:
+  name: 阳光如初.
+  age: 88
+  object: 404
+  my:
+    secret: ${random.value}
+    number: ${random.int}
+    bignumber: ${random.long}
+    uuid: ${random.uuid}
+    lessThanTen: ${random.int(10)}
+    inRange: ${random.int[1024,65536]}
